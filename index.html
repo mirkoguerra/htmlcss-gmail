@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>gmail</title>
+    <link rel="stylesheet" href="master.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> -->
+    <!-- lo dovrei usare ae volessi cambire font, in questo caso non ne ho bisogno -->
+  </head>
+  <body>
+
+    <div class="contenitore">
+    <!-- Per centrare il tutto -->
+
+      <header>
+      <!-- immagine, scritta, linea orizzontale, input text e button -->
+
+        <img id="gmail-logo" src="img/gmail-logo.png" alt="logo di gmail">
+        <span id="gmail-scritta">Gmail</span>
+        <hr>
+        <input type="text" name="" value="" placeholder="Cerca">
+        <button type="button" name="button">Vai</button>
+      </header>
+
+      <main>
+      <!-- scritta, linea orizzontale, elenco mail e linea orizzontale -->
+
+        <section class="unread-scritta">
+        <!-- scritta delle mail non lette -->
+
+          <span>You have <span id="unread-numero">30</span> unread</span>
+        </section>
+
+        <hr>
+
+        <section>
+        <!-- elenco delle mail -->
+
+          <div class="riga letta">
+          <!-- utilizzabile per tutte le mail lette -->
+
+              <input type="checkbox" name="" value="">
+              <span>&#9733;</span>
+              <span class="oggetto-mail"><strong>Oggetto della mail</strong></span>
+              <span class="testo-mail">-testo della mail...</span>
+          </div>
+
+          <div class="riga nonletta">
+          <!-- utilizzabile per tutte le mail non lette -->
+
+              <input type="checkbox" name="" value="">
+              <span>&#9733;</span>
+              <span class="oggetto-mail"><strong>Oggetto della mail</strong></span>
+              <span class="testo-mail">-testo della mail...</span>
+          </div>
+
+          <div class="riga letta">
+
+              <input type="checkbox" name="" value="">
+              <span>&#9733;</span>
+              <span class="oggetto-mail"><strong>Oggetto della mail</strong></span>
+              <span class="testo-mail">-testo della mail...</span>
+          </div>
+
+          <div class="riga letta">
+
+              <input type="checkbox" name="" value="">
+              <span>&#9733;</span>
+              <span class="oggetto-mail"><strong>Oggetto della mail</strong></span>
+              <span class="testo-mail">-testo della mail...</span>
+          </div>
+        </section>
+
+        <hr>
+
+      </main>
+
+      <footer>
+
+        <span id="footer-prima"><strong>GMail </strong></span><span id="footer-seconda">powered by Davide</span>
+      </footer>
+    </div>
+  </body>
+</html>

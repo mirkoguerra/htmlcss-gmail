@@ -1,0 +1,77 @@
+body{
+  /* font-family: 'Roboto', sans-serif; */
+  /* lo dovrei usare ae volessi cambire font, in questo caso non ne ho bisogno */
+
+  background-image: url(img/sfondo.jpg);
+  /* evitare il più possibile di agire sul body, salvo cose generalissime, come background e font-style */
+}
+
+.contenitore{
+  width: 80%;
+  margin: auto;
+  /* per centrare il tutto */
+  margin-top: 20px;
+  /* per staccare un po'dall'alto */
+}
+
+#gmail-logo{
+  width: 100px;
+  vertical-align: middle;
+  /* per centrare, in altezza, la scritta rispetto l'immagine */
+}
+
+#gmail-scritta{
+  color: white;
+  font-size: 24px;
+  margin-left: 5px;
+  /* per distanziare leggermente la scritta dal logo, come nell'immagine da replicare */
+}
+
+.unread-scritta{
+  color: white;
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+#unread-numero{
+  background-color: orange;
+  padding: 5px;
+  border-radius: 50%;
+  /* per arrotondare il bordo */
+  text-align: center;
+  vertical-align: middle;
+  /* per centrare perfettamente il 30 */
+}
+
+.riga{
+  border: 1px solid black;
+}
+
+.letta{
+  background-color: lightgrey;
+}
+
+.nonletta{
+  background-color: white;
+}
+
+.oggetto-mail{
+  color: black;
+}
+
+.testo-mail{
+  color: grey;
+}
+
+footer{
+  color: white;
+  text-align: center;
+}
+
+#footer-prima{
+  font-size: 24px;
+}
+
+#footer-seconda{
+  font-style: italic;
+}
